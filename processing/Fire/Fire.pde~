@@ -1,0 +1,13 @@
+PImage buffer1;
+Pimage buffer2;
+
+void setup() {
+    size(600,400);
+    buffer1 = createImage(width, height, RGB);
+    buffer2 = createImage(width, height, RGB);
+}
+
+void draw() {
+
+
+}
