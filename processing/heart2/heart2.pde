@@ -20,10 +20,16 @@ void draw() {
     s = map(cos(p), -1, 1, 0.7, 1);
     
     if (p > TWO_PI*5) {
-      // heart.clear();
-      // Destroy ur love
-      
-      heart.remove(0);
+      if (p < TWO_PI*6) {
+        heart.clear();
+        for (float a = 0; a <= TWO_PI; a += 0.07) {
+          buildHeart((r*s)-TWO_PI*20/p, a);
+        }
+      } else {
+        heart.clear();
+        p = 0;  
+      }
+      // heart.remove(0);
     } else {
       heart.clear();
       for (float a = 0; a <= TWO_PI; a += 0.07) {
