@@ -11,6 +11,6 @@ som blir lastet ned nå. (14.03.2019)
 
 
 TODOs:
- [] Refaktorere til oop.
- [] Integrere til MM
- [] Måte å velge område (automatisk basert på IP?)
+ [-] Refaktorere til oop
+ [-] Integrere til MM
+ [-] Måte å velge område (automatisk basert på IP?)
